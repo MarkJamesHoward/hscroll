@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+      div {
+        border: 10px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 38px;
+      }
+      div.box-1 {
+        width: 100vw;
+        height: 30vh;
+        background: red;
+      }
+      div.box-2 {
+        width: 100sw;
+        height: 30vh;
+        background: blue;
+      }
+      div.box-2 {
+        width: 100lw;
+        height: 30vh;
+        background: blue;
+      }
+      div.box-3 {
+        width: 100dw;
+        height: 30vh;
+        background: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box-1">100 vw</div>
+    <div class="box-2">100 sw</div>
+    <div class="box-3">100 lw</div>
+    <div class="box-3">100 dw</div>
+  </body>
+</html>
